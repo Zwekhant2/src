@@ -16,7 +16,7 @@
     <h3> 3.2 Create a PHP variable named $title and assign it the value "PHP is interesting." Then, use this variable as the content within an <h4> (heading 4) element.</h3>
 
     <?php
-    $title = "PHP is interesting."
+    $title = "PHP is interesting.";
     echo "<h4>$title</h4>";
     ?>
 
@@ -24,7 +24,7 @@
     <?php
         $g1 = 5;
         $g2 = 4;
-        $g3 = 3;
+        $g3 = 5;
     ?>
     <table>
         <tr><th>S.n.</th><th>Name</th><th>Grade</th></tr>
@@ -45,6 +45,6 @@
         </tr>
     </table>
     <h3> 3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
-    <img src="image"
+    <img src="images/ex1.png" alt="Development Environment Screenshot">
 </body>
 </html>
